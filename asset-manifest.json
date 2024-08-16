@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ashleytoashes/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/ashleytoashes/static/js/main.bb65c50c.chunk.js",
+    "main.js.map": "/ashleytoashes/static/js/main.bb65c50c.chunk.js.map",
+    "runtime-main.js": "/ashleytoashes/static/js/runtime-main.a5de020f.js",
+    "runtime-main.js.map": "/ashleytoashes/static/js/runtime-main.a5de020f.js.map",
+    "static/js/2.5ff95bdd.chunk.js": "/ashleytoashes/static/js/2.5ff95bdd.chunk.js",
+    "static/js/2.5ff95bdd.chunk.js.map": "/ashleytoashes/static/js/2.5ff95bdd.chunk.js.map",
+    "static/js/3.82afb7a3.chunk.js": "/ashleytoashes/static/js/3.82afb7a3.chunk.js",
+    "static/js/3.82afb7a3.chunk.js.map": "/ashleytoashes/static/js/3.82afb7a3.chunk.js.map",
+    "index.html": "/ashleytoashes/index.html",
+    "precache-manifest.c977648d43aeff3a74d899e27eda5281.js": "/ashleytoashes/precache-manifest.c977648d43aeff3a74d899e27eda5281.js",
+    "service-worker.js": "/ashleytoashes/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/ashleytoashes/static/css/main.435d5fe5.chunk.css.map",
+    "static/js/2.5ff95bdd.chunk.js.LICENSE.txt": "/ashleytoashes/static/js/2.5ff95bdd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ashleytoashes/static/media/logo.06e73328.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5de020f.js",
+    "static/js/2.5ff95bdd.chunk.js",
+    "static/css/main.435d5fe5.chunk.css",
+    "static/js/main.bb65c50c.chunk.js"
+  ]
+}

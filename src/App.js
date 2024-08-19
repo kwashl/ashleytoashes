@@ -6,7 +6,7 @@ import './App.css';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/ashleytoashes">
       <Header />
       <VerticalTabs />
     </Router>

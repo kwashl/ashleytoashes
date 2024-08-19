@@ -1,0 +1,19 @@
+.description {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.barleybrown {
+  width: 50vh;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.websiteDescription {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 14px;
+  color: #757575;
+  font-style: italic;
+}

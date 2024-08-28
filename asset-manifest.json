@@ -1,32 +1,23 @@
 {
   "files": {
-    "main.css": "/ashleytoashes/static/css/main.6b5aa87c.chunk.css",
-    "main.js": "/ashleytoashes/static/js/main.b8243998.chunk.js",
-    "main.js.map": "/ashleytoashes/static/js/main.b8243998.chunk.js.map",
-    "runtime-main.js": "/ashleytoashes/static/js/runtime-main.626dc6eb.js",
-    "runtime-main.js.map": "/ashleytoashes/static/js/runtime-main.626dc6eb.js.map",
-    "static/js/2.9fa273a1.chunk.js": "/ashleytoashes/static/js/2.9fa273a1.chunk.js",
-    "static/js/2.9fa273a1.chunk.js.map": "/ashleytoashes/static/js/2.9fa273a1.chunk.js.map",
-    "static/js/3.5c47eb8e.chunk.js": "/ashleytoashes/static/js/3.5c47eb8e.chunk.js",
-    "static/js/3.5c47eb8e.chunk.js.map": "/ashleytoashes/static/js/3.5c47eb8e.chunk.js.map",
+    "main.css": "/ashleytoashes/static/css/main.dca93e9c.css",
+    "main.js": "/ashleytoashes/static/js/main.223e3f9f.js",
+    "static/js/453.68693753.chunk.js": "/ashleytoashes/static/js/453.68693753.chunk.js",
+    "static/media/love_stinks.mp4": "/ashleytoashes/static/media/love_stinks.fa67724bf7e98eaa06a4.mp4",
+    "static/media/barleybrown.png": "/ashleytoashes/static/media/barleybrown.4ec65c32a34c13a88cba.png",
+    "static/media/pinocchio.mp4": "/ashleytoashes/static/media/pinocchio.b93e8d87c00778ee6fa7.mp4",
+    "static/media/pencil.mp4": "/ashleytoashes/static/media/pencil.28b762db713e3ad5bae7.mp4",
+    "static/media/happydoggo.png": "/ashleytoashes/static/media/happydoggo.f9b4815022441b3f13ad.png",
+    "static/media/sleepy.png": "/ashleytoashes/static/media/sleepy.6d050adb427dd88ffa19.png",
+    "static/media/wakey.png": "/ashleytoashes/static/media/wakey.01c69b635f17ce699c11.png",
+    "static/media/either_or.pdf": "/ashleytoashes/static/media/either_or.2dd94bb4504be34cba38.pdf",
     "index.html": "/ashleytoashes/index.html",
-    "precache-manifest.b77aa227148062b4fe9c3d4402a000db.js": "/ashleytoashes/precache-manifest.b77aa227148062b4fe9c3d4402a000db.js",
-    "service-worker.js": "/ashleytoashes/service-worker.js",
-    "static/css/main.6b5aa87c.chunk.css.map": "/ashleytoashes/static/css/main.6b5aa87c.chunk.css.map",
-    "static/js/2.9fa273a1.chunk.js.LICENSE.txt": "/ashleytoashes/static/js/2.9fa273a1.chunk.js.LICENSE.txt",
-    "static/media/barleybrown.png": "/ashleytoashes/static/media/barleybrown.d2caa5a1.png",
-    "static/media/either_or.pdf": "/ashleytoashes/static/media/either_or.cda0fc1e.pdf",
-    "static/media/happydoggo.png": "/ashleytoashes/static/media/happydoggo.1acb42e5.png",
-    "static/media/love_stinks.mp4": "/ashleytoashes/static/media/love_stinks.7f47f371.mp4",
-    "static/media/pencil.mp4": "/ashleytoashes/static/media/pencil.cba627fe.mp4",
-    "static/media/pinocchio.mp4": "/ashleytoashes/static/media/pinocchio.407e992e.mp4",
-    "static/media/sleepy.png": "/ashleytoashes/static/media/sleepy.f60d20b9.png",
-    "static/media/wakey.png": "/ashleytoashes/static/media/wakey.48eb935d.png"
+    "main.dca93e9c.css.map": "/ashleytoashes/static/css/main.dca93e9c.css.map",
+    "main.223e3f9f.js.map": "/ashleytoashes/static/js/main.223e3f9f.js.map",
+    "453.68693753.chunk.js.map": "/ashleytoashes/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.626dc6eb.js",
-    "static/js/2.9fa273a1.chunk.js",
-    "static/css/main.6b5aa87c.chunk.css",
-    "static/js/main.b8243998.chunk.js"
+    "static/css/main.dca93e9c.css",
+    "static/js/main.223e3f9f.js"
   ]
 }

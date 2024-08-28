@@ -1,14 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { AppBar, Toolbar, Typography } from '@mui/material';
 import { HeaderIcon } from './HeaderIcon';
 import './Header.css';
 
 export function Header() {
+  const navigate = useNavigate();
   const headerText = "Ashley's Very Professional Website";
 
   const wiggleWords = ['Very', 'Professional'];
   const bounceDuration =
     (headerText.indexOf('Website') - headerText.indexOf('Very')) * 0.1;
+
+  const handleClick = () => {
+    navigate('/');
+  };
 
   return (
     <AppBar
@@ -22,7 +28,12 @@ export function Header() {
       <Toolbar sx={{ height: 80 }}>
         <Typography
           variant="h6"
-          sx={{ flexGrow: 1, fontFamily: `'Montserrat', sans-serif` }}
+          sx={{
+            flexGrow: 1,
+            fontFamily: `'Montserrat', sans-serif`,
+            cursor: 'pointer',
+          }}
+          onClick={handleClick}
         >
           {headerText.split(' ').map((word, wordIndex) => {
             const isWiggleWord = wiggleWords.includes(word);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Dialog, DialogContent, Tooltip } from '@mui/material';
 import sleepyIcon from '../images/sleepy.png';
 import wakeyIcon from '../images/wakey.png';
@@ -24,22 +24,25 @@ export function HeaderIcon() {
     setDialogOpen(true);
   };
 
-  const handleClose = () => {
+  const handleClose = useCallback(() => {
     setDialogOpen(false);
-  };
+  }, []);
 
-  const handleClickOutside = (event) => {
-    if (dialogRef.current && !dialogRef.current.contains(event.target)) {
-      handleClose();
-    }
-  };
+  const handleClickOutside = useCallback(
+    (event) => {
+      if (dialogRef.current && !dialogRef.current.contains(event.target)) {
+        handleClose();
+      }
+    },
+    [handleClose]
+  );
 
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, []);
+  }, [handleClickOutside]);
 
   return (
     <>

@@ -3,28 +3,31 @@ import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import { Tabs, Tab, Box } from '@mui/material';
 import { About } from '../pages/About';
 import { Portfolio } from '../pages/Portfolio';
+import { WritingSamples } from '../pages/WritingSamples';
 
 export function VerticalTabs() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const initialTabValue = location.pathname === '/portfolio' ? 1 : 0;
-  const [value, setValue] = useState(initialTabValue);
+  const [tab, setTab] = useState(0);
 
   useEffect(() => {
     if (location.pathname === '/portfolio') {
-      setValue(1);
+      setTab(1);
+    } else if (location.pathname === '/writingsamples') {
+      setTab(2);
     } else {
-      setValue(0);
+      setTab(0);
     }
   }, [location.pathname]);
 
   const handleChangeTabs = (_, newValue) => {
-    setValue(newValue);
     if (newValue === 0) {
       navigate('/');
     } else if (newValue === 1) {
       navigate('/portfolio');
+    } else if (newValue === 2) {
+      navigate('/writingsamples');
     }
   };
 
@@ -33,7 +36,7 @@ export function VerticalTabs() {
       <Tabs
         orientation="vertical"
         variant="scrollable"
-        value={value}
+        value={tab}
         onChange={handleChangeTabs}
         sx={{
           borderRight: 1,
@@ -62,11 +65,22 @@ export function VerticalTabs() {
             justifyContent: 'center',
           }}
         />
+        <Tab
+          label="Writing Samples"
+          sx={{
+            height: '90px',
+            minHeight: '90px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        />
       </Tabs>
       <Box sx={{ p: 3, flexGrow: 1 }}>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route exact path="/" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/writingsamples" element={<WritingSamples />} />
         </Routes>
       </Box>
     </Box>
